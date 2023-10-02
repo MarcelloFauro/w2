@@ -1,0 +1,130 @@
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+/* Header */
+#header {
+    height: 4%;
+    background-color: #222F3E;
+    object-fit: cover;
+}
+
+.logo img{
+    padding-left: 25px;
+    height: 50px;
+}
+
+.menu {
+    background-color: #354758;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.menu span {
+    font-size: small;
+    display: inline;
+    margin: 0 15px;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Main */
+#main {
+    margin: 25px;
+}
+/* Top */
+#promoImage {
+    background-image: url("bg-image.png");
+    object-fit: cover;
+    margin-top: 25px;
+    margin-bottom: -2px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.message {
+    height: 25%;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+}
+
+.imageMessage {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin: 0 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.imageMessage span {
+    margin-right: 10px;
+    color: darkcyan;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.pictureContainer{
+    background-color: white;
+    margin: 25px 0;
+}
+
+#topPicture {
+    padding: 1px 2px;
+    display: inline;
+    object-fit: cover;
+}
+
+#topPicture img {
+    margin: 10px 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.blocImage {
+    width: 1450px;
+    height: 300px;
+    margin: 50px 0;
+}
+
+.blocImage img {
+    width: 1450px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.blocImage .imageMessage {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.imageMessage h5 {
+    color: darkcyan;
+    margin-left: 20px;
+}
+
+/* Bottom */
+
+.topFooter {
+    height: 20px;
+    background-color: #354758;
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+#footer {
+    height: 120px;
+    background-color: #222F3E;
+    margin-bottom: 0;
+}
+
+#footer img{
+    margin: 2% 44%
+}
